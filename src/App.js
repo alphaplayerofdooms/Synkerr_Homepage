@@ -5,18 +5,16 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="/image1.png" className="logo" alt="logo" />
-        <img src="/image3.png" className="backdrop" alt="backdrop" />
-        <h1>Synkerr.</h1>
-        <div className='three-on-top'>
-        <h3>Our Aim</h3>
-        <h3>Team</h3>
-        <h3 className='lastOne '>What we do</h3>
-          <div className="contact">
-            <img src="/image2.png"  alt="contact us" />
-            <p className="contact-text">Contact Us</p>
-          </div>
+        <div className='logo'>
+          <img src="/image1.png" className="logoI" alt="logo" height={'46px'} width={'46px'}/>
+          <h1>Synkerr.</h1>
         </div>
+        <div className='info'>
+          <h3>Our Aim</h3>
+          <h3>Team</h3>
+          <h3 className='lastOne '>What we do</h3>
+        </div>
+          <p className="contact">Contact Us</p>
       </header>
 
       <body className='Body'>
